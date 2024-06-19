@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.item:hover {
+    text-decoration: underline red 2px;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 45px;
+}
